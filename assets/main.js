@@ -87,7 +87,9 @@ function popup() {
     if (myWindow) {
         myWindow.close();
     }
-    const myWindowTwo = window.open('about:blank', '_blank');ndowTwo.close();
+    const myWindowTwo = window.open('about:blank', '_blank');
+    if (myWindowTwo) {
+        myWindowTwo.close();
     }
     console.log("[?] You should be prompted to allow multiple popups")
 }
