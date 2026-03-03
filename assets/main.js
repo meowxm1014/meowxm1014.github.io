@@ -15,6 +15,7 @@ console.log(`
 
     [*] Moesports 3 Utils
     [*] A collection of utilities and downloads
+    [*] Run \`popup()\` to enable multi popups
     [>] Run \`start()\`
 
 `);
@@ -79,4 +80,14 @@ function dolphin() {
 }
 function drive() {
     window.open('https://www.drive.google.com', '_blank');
+}
+
+function popup() {
+    const myWindow = window.open('about:blank', '_blank');
+    if (myWindow) {
+        myWindow.close();
+    }
+    const myWindowTwo = window.open('about:blank', '_blank');ndowTwo.close();
+    }
+    console.log("[?] You should be prompted to allow multiple popups")
 }
