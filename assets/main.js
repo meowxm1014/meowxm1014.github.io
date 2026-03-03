@@ -79,7 +79,7 @@ function dolphin() {
     downloadEmptyTxt();
 }
 function drive() {
-    window.open('https://www.drive.google.com', '_blank');
+    window.open('https://drive.google.com/drive/u/0/my-drive', '_blank');
 }
 
 function popup() {
