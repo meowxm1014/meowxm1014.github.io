@@ -85,10 +85,12 @@ function drive() {
 function popup() {
     const myWindow = window.open('about:blank', '_blank');
     if (myWindow) {
+        myWindow.document.body.innerHTML = "CLOSE ME CLOSE ME CLOSE ME CLOSE ME CLOSE ME"
         myWindow.close();
     }
     const myWindowTwo = window.open('about:blank', '_blank');
     if (myWindowTwo) {
+        myWindow.document.body.innerHTML = "CLOSE ME CLOSE ME CLOSE ME CLOSE ME CLOSE ME"
         myWindowTwo.close();
     }
     console.log("[?] You should be prompted to allow multiple popups")
