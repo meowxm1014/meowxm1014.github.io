@@ -16,7 +16,7 @@ console.log(`
     [*] Moesports 3 Utils
     [*] A collection of utilities and downloads
     [*] Run \`popup()\` to enable multi popups
-    [>] Run \`start()\`
+    [>] Run a command to start
 
 `);
 
@@ -94,4 +94,10 @@ function popup() {
         myWindowTwo.close();
     }
     console.log("[?] You should be prompted to allow multiple popups")
+}
+
+function mc() {
+    document.getElementById("ip").style = "display: inline;"
+
+
 }
